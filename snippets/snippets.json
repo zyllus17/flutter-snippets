@@ -1,0 +1,17 @@
+{
+    "Stateless Widget": {
+        "prefix": "fsless",
+        "body": [
+            "class ${1:name} extends StatelessWidget {",
+            "  const ${1:name}({Key key}) : super(key: key);\n",
+            "  @override",
+            "  Widget build(BuildContext context) {",
+            "    return Container(",
+            "      child: ${2:child},",
+            "    );",
+            "  }",
+            "}"
+        ],
+        "description": "Create a Stateless widget"
+    }
+}
