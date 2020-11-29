@@ -9,6 +9,10 @@
     "categories": [
         "Snippets"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zyllus17/flutter-snippets"
+    },
     "contributes": {
         "snippets": [
             {
