@@ -1,17 +1,183 @@
 {
-    "Stateless Widget": {
-        "prefix": "fsless",
-        "body": [
-            "class ${1:name} extends StatelessWidget {",
-            "  const ${1:name}({Key key}) : super(key: key);\n",
-            "  @override",
-            "  Widget build(BuildContext context) {",
-            "    return Container(",
-            "      child: ${2:child},",
-            "    );",
-            "  }",
-            "}"
-        ],
-        "description": "Create a Stateless widget"
-    }
+  "Scaffold widget snippet": {
+    "prefix": "fscaf",
+    "body": [
+      "Scaffold(",
+      "  appBar: AppBar(",
+      "    title: Text('${1:Title}'),",
+      "  ),",
+      "  body: ${2:Container()}${0},",
+      ");"
+    ],
+    "description": "Scaffold widget snippet"
+  },
+  "Expand widget snippet": {
+    "prefix": "fex",
+    "body": [
+      "Expanded(",
+      "  child: ${1:Widget},${0}",
+      ")"
+    ],
+    "description": "Expand widget snippet"
+  },
+  "Text widget snippet": {
+    "prefix": "ftxt",
+    "body": [
+      "Text('${1:text}'),${0}"
+    ],
+    "description": "Text widget snippet"
+  },
+  "Flutter Icon widget snippet": {
+    "prefix": "fic",
+    "body": [
+      "Icon(Icons.${1:clear})${0}"
+    ],
+    "description": "Flutter Icon widget snippet"
+  },
+  "Flutter Container widget snippet": {
+    "prefix": "fcont",
+    "body": [
+      "Container(",
+      "  child: ${1:Widget}(${0}),",
+      ")"
+    ],
+    "description": "Flutter Container widget snippet"
+  },
+  "Flutter Center widget snippet": {
+    "prefix": "fcent",
+    "body": [
+      "Center(",
+      "  child: ${1:Widget}(${0}),",
+      ")"
+    ],
+    "description": "Flutter Center widget snippet"
+  },
+  "Flutter Row widget snippet": {
+    "prefix": "frow",
+    "body": [
+      "Row(",
+      "  children: <Widget>[${0}],",
+      ")"
+    ],
+    "description": "Flutter Row widget snippet"
+  },
+  "Flutter Column widget snippet": {
+    "prefix": "fcol",
+    "body": [
+      "Column(",
+      "  children: <Widget>[${0}],",
+      ")"
+    ],
+    "description": "Flutter Column widget snippet"
+  },
+  "Flutter Stack widget snippet": {
+    "prefix": "fstack",
+    "body": [
+      "Stack(",
+      "  children: <Widget>[${0}],",
+      ")"
+    ],
+    "description": "Flutter Stack widget snippet"
+  },
+  "Align widget": {
+    "prefix": "falign",
+    "body": [
+      "Align(",
+      "  alignment: Alignment${1},",
+      "  child:${2:Widget}",
+      "  ),"
+    ],
+    "description": "Align widget"
+  },
+  "Flatbutton widget": {
+    "prefix": "fflat",
+    "body": [
+      "FlatButton(",
+      "  onPressed: () {${1}},",
+      "  child: Text(",
+      "    \"${2:Flat Button}\",",
+      "  ),",
+      "),"
+    ],
+    "description": "Flatbutton widget"
+  },
+  "FloatingActionButton widget": {
+    "prefix": "fab",
+    "body": [
+      "FloatingActionButton(",
+      "  onPressed: () {${1}},",
+      "  child: Icon(Icons.${2:add}),",
+      "),"
+    ],
+    "description": "FloatingActionButton widget"
+  },
+  "IconButton widget": {
+    "prefix": "ficbtn",
+    "body": [
+      "IconButton(",
+      "  onPressed: () {${1}},",
+      "  icon: Icon(Icons.${2:add}),",
+      "),"
+    ],
+    "description": "IconButton widget"
+  },
+  "RaisedButton widget": {
+    "prefix": "fraisdbtn",
+    "body": [
+      "RaisedButton(",
+      "  onPressed: () {${1}},",
+      "  child: Text(",
+      "    \"${2:Raised Button}\",",
+      "  ),",
+      ")"
+    ],
+    "description": "RaisedButton widget"
+  },
+  "GestureDetector widget": {
+    "prefix": "fgesdet",
+    "body": [
+      "GestureDetector(",
+      "  onTap: () {${1}},",
+      "  child: ${2:Widget},",
+      "),"
+    ],
+    "description": "GestureDetector widget"
+  },
+  "Drawer widget": {
+    "prefix": "fdrawer",
+    "body": [
+      "Drawer(",
+      "  child: ListView(",
+      "    children: const <Widget>[${0}],",
+      "),  "
+    ],
+    "description": "Drawer widget"
+  },
+  "MediaQuery widget": {
+    "prefix": "fmeque",
+    "body": [
+      "MediaQuery.of(context)$0;"
+    ],
+    "description": "MediaQuery widget"
+  },
+  "Material Package": {
+    "prefix": "impM",
+    "body": "import 'package:flutter/material.dart';",
+    "description": "Import flutter material package"
+  },
+  "Cupertino Package": {
+    "prefix": "impC",
+    "body": "import 'package:flutter/cupertino.dart';",
+    "description": "Import Flutter Cupertino package"
+  },
+  "Services Package": {
+    "prefix": "impS",
+    "body": "import 'package:flutter/services.dart';",
+    "description": "Import Flutter Cupertino package"
+  },
+  "Foundation Package": {
+    "prefix": "impF",
+    "body": "import 'package:flutter/foundation.dart';",
+    "description": "Import Flutter Cupertino package"
+  }
 }
