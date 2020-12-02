@@ -71,7 +71,7 @@
     "description": "Flutter Column widget snippet"
   },
   "Flutter Stack widget snippet": {
-    "prefix": "fstack",
+    "prefix": "fstk",
     "body": [
       "Stack(",
       "  children: <Widget>[${0}],",
@@ -143,6 +143,16 @@
     ],
     "description": "GestureDetector widget"
   },
+  "InkWell widget": {
+    "prefix": "fink",
+    "body": [
+      "InkWell(",
+      "  onTap: () {${1}},",
+      "  child:${2:Widget}",
+      "),"
+    ],
+    "description": "RaisedButton widget"
+  },
   "Drawer widget": {
     "prefix": "fdrawer",
     "body": [
@@ -160,6 +170,7 @@
     ],
     "description": "MediaQuery widget"
   },
+
   "Material Package": {
     "prefix": "impM",
     "body": "import 'package:flutter/material.dart';",
@@ -179,5 +190,10 @@
     "prefix": "impF",
     "body": "import 'package:flutter/foundation.dart';",
     "description": "Import Flutter Cupertino package"
+  },
+  "HTTP Package": {
+    "prefix": "impH",
+    "body": "import 'package:http/http.dart'as http;",
+    "description": "Import Flutter HTTP package"
   }
 }
