@@ -1,8 +1,12 @@
 {
     "name": "flutter-snippets",
-    "displayName": "flutter-snippets",
-    "description": "Flutter Snippets",
-    "version": "0.0.1",
+    "displayName": "Flutter Snippets",
+    "description": "Supercharge your Flutter workflow with handy Snippets for VS Code",
+    "version": "1.0.0",
+    "license": "MIT",
+    "publisher": "MarufHassan",
+    "homepage": "https://github.com/zyllus17/flutter-snippets",
+    "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.51.0"
     },
@@ -20,5 +24,15 @@
                 "path": "./snippets/snippets.json"
             }
         ]
-    }
+    },
+    "bugs": {
+        "url": "https://github.com/zyllus17/flutter-snippets/issues",
+        "email": "csengineer.maruf@gmail.com"
+    },
+    "keywords": [
+        "dart",
+        "snippet",
+        "flutter",
+        "widgets"
+    ]
 }
