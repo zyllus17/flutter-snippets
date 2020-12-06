@@ -34,6 +34,7 @@
 |Shortcut|Expanded|Description|
 | ----- | ---- | --------- |
 | `screen` | Scaffold with text | Creates a screen with text in center|
+| `devprev` | Device Preview | Creates a screen with the syntax of Device Preview Package|
 | `mateapp` | Material App | Creates a new screen with Material App|
 | `cupeapp` | Cupertino App | Creates a new screen with Cupertino App|
 | `build` | Build Method | Describes the part of the user interface represented by the widget.|
