@@ -4,6 +4,7 @@
 
 Supercharge your Flutter workflow with handy Snippets for VS Code
 
+![Flutter Snippets](https://user-images.githubusercontent.com/50977126/103440815-c75ff400-4c6e-11eb-8050-4abb624ec13e.gif)
 ---
 ## Table of Contents
 <!--- - [Installation](#installation) -->
