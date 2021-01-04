@@ -38,7 +38,7 @@
     "prefix": "fcont",
     "body": [
       "Container(",
-      "  child: ${1:Widget}(${0}),",
+      "  child: ${1}",
       ")"
     ],
     "description": "Flutter Container widget snippet"
