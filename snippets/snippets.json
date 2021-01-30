@@ -38,7 +38,7 @@
     "prefix": "fcont",
     "body": [
       "Container(",
-      "  child: ${1:Widget}(${0}),",
+      "  child: ${1}",
       ")"
     ],
     "description": "Flutter Container widget snippet"
@@ -166,7 +166,7 @@
   "MediaQuery widget": {
     "prefix": "fmeque",
     "body": [
-      "MediaQuery.of(context)$0;"
+      "MediaQuery.of(context).${0};"
     ],
     "description": "MediaQuery widget"
   },
@@ -200,16 +200,16 @@
     "body": [
       "import 'package:flutter/material.dart';",
       "",
-      "class Screen extends StatelessWidget {",
+      "class ${1:Screen} extends StatelessWidget {",
       "  @override",
       "  Widget build(BuildContext context) {",
       "    return Scaffold(",
       "      appBar: AppBar(",
-      "        title: Text('App Bar'),",
+      "        title: Text('${1:App Bar}'),",
       "      ),",
       "      body: Center(",
       "        child: Container(",
-      "          child: Text('Hello World'),",
+      "          child: Text('${1:Hello World}'),",
       "        ),",
       "      ),",
       "    );",
@@ -370,5 +370,63 @@
       "}"
     ],
     "description": "Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again."
+  },
+  "Theme of context": {
+    "prefix": "ftheme",
+    "body": [
+      "Theme.of(context).${0};"
+    ],
+    "description": "Theme of context"
+  },
+  "CrossAxisAlignment": {
+    "prefix": "caa",
+    "body": [
+      "crossAxisAlignment : CrossAxisAlignment.${0},"
+    ],
+    "description": "CrossAxisAlignment"
+  },
+  "MainAxisAlignment": {
+    "prefix": "maa",
+    "body": [
+      "mainAxisAlignment : MainAxisAlignment.${1},"
+    ],
+    "description": "MainAxisAlignment"
+  },
+  "Flutter Logo": {
+    "prefix": "flogo",
+    "body": [
+      "FlutterLogo(),"
+    ],
+    "description": "Flutter Logo"
+  },
+  "SizedBox Widget": {
+    "prefix": "fszb",
+    "body": [
+      "SizedBox(),"
+    ],
+    "description": "Sized Box Widget"
+  },
+  "SizedBox Widget with width": {
+    "prefix": "fszbw",
+    "body": [
+      "SizedBox(width:${0}),"
+    ],
+    "description": "SizedBox Widget with width"
+  },
+  "SizedBox Widget with height": {
+    "prefix": "fszbh",
+    "body": [
+      "SizedBox(height:${0}),"
+    ],
+    "description": "SizedBox Widget with height"
+  },
+  "ListView Widget": {
+    "prefix": "flistv",
+    "body": [
+      "ListView(",
+      "children: <Widget>[${0}],",
+      ")"
+    ],
+    "description": "ListView Widget"
   }
 }

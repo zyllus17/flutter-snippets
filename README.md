@@ -35,6 +35,13 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `fink` | InkWell Widget| Creates a InkWell widget|
 | `fdrawer` | Drawer Widget| Creates a Drawer widget|
 | `fmeque` | MediaQuery Widget| Creates a MediaQuery widget|
+| `ftheme` | Theme Widget| Creates a Theme widget|
+| `flogo` | FlutterLogo Widget| Creates a FlutterLogo widget|
+| `fszb` | SizedBox Widget| Creates a SizedBox widget|
+| `fszbw` | SizedBox Widget with width| Creates a SizedBox widget with width|
+| `fszbh` | SizedBox Widget with height| Creates a SizedBox widget with height|
+| `flistv` | ListView Widget| Creates a ListView widget|
+
 
 ## Import Snippets
 |Import|Package|Description|
@@ -57,6 +64,8 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `customClipper` | Custom Clippers | Creates custom clippers|
 | `initS` | InitState | Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.|
 | `dis` | Dispose | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.|
+| `caa` | CrossAxisAlignment| Creates CrossAxisAlignment|
+| `maa` | MainAxisAlignment | Creates MainAxisAlignment|
 
 ---
 
