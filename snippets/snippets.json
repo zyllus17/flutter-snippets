@@ -428,5 +428,34 @@
       ")"
     ],
     "description": "ListView Widget"
+  },
+  "Custom AppBar widget": {
+    "prefix": "appbar",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "class ${1:AppBarScreen} extends StatelessWidget with PreferredSizeWidget {",
+      "  final Size preferredSize;",
+      "",
+      "  ${1:AppBarScreen}({",
+      "    Key key,",
+      "  })  : preferredSize = Size.fromHeight(56.0),",
+      "        super(key: key);",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return AppBar(",
+      "      title: Text('${2:AppBarScreen}',),",
+      "      leading: IconButton(",
+      "        icon: Icon(Icons.arrow_back_ios),",
+      "        onPressed: () => Navigator.of(context).pop(),",
+      "      ),",
+      "      automaticallyImplyLeading: true,",
+      "    );",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "Custom AppBar widget"
   }
 }

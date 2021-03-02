@@ -66,6 +66,7 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `dis` | Dispose | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.|
 | `caa` | CrossAxisAlignment| Creates CrossAxisAlignment|
 | `maa` | MainAxisAlignment | Creates MainAxisAlignment|
+| `appbar` | Custom AppBar widget | Creates Custom AppBar widget|
 
 ---
 
@@ -82,8 +83,6 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 
 Vscode: ^1.51.0
 
-## Release Notes
-### 1.0.0
 Initial release of Flutter Snippets
 ## License
 
