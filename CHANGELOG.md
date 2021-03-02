@@ -18,3 +18,7 @@ All notable changes to the "flutter-snippets" extension will be documented in th
 - Added [ISSUE_TEMPLATE.md]
 - Updated [README.md]
 - Container Widget 🐛🔨
+
+## [1.0.2]
+
+- Added `Custom AppBar widget` as `appbar` to exract the `AppBar` in a separate dart file.
