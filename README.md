@@ -27,10 +27,10 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `fcol` | Column Widget| Creates a Column widget|
 | `fstk` | Column Widget| Creates a Column widget|
 | `falign` |Align Widget| Creates a Align widget|
-| `fflat` | FlatButton Widget| Creates a FlatButton widget|
+| `ftextbtn` | TextButton Widget| Creates a TextButton widget|
 | `fab` | FloatingActionButton Widget| Creates a FloatingActionButton widget|
 | `ficbtn` | IconButton Widget| Creates a IconButton widget|
-| `fraisdbtn` | RaisedButton Widget| Creates a RaisedButton widget|
+| `felevbtn` | RaisedButton Widget| Creates a RaisedButton widget|
 | `fgesdet` | GestureDetector Widget| Creates a GestureDetector widget|
 | `fink` | InkWell Widget| Creates a InkWell widget|
 | `fdrawer` | Drawer Widget| Creates a Drawer widget|
@@ -41,7 +41,7 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `fszbw` | SizedBox Widget with width| Creates a SizedBox widget with width|
 | `fszbh` | SizedBox Widget with height| Creates a SizedBox widget with height|
 | `flistv` | ListView Widget| Creates a ListView widget|
-
+| `fnav` | Navigation Widget| Creates the Navigation widget|
 
 ## Import Snippets
 |Import|Package|Description|
@@ -66,7 +66,9 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `dis` | Dispose | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.|
 | `caa` | CrossAxisAlignment| Creates CrossAxisAlignment|
 | `maa` | MainAxisAlignment | Creates MainAxisAlignment|
+| `fstyle` | Flutter TextStyle property | Creates Flutter TextStyle |
 | `appbar` | Custom AppBar widget | Creates Custom AppBar widget|
+| `defaultApp` | Default Counter App | Creates Default Counter App |
 
 ---
 
