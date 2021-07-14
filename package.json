@@ -2,7 +2,7 @@
 	"name": "flutter-snippets",
 	"displayName": "Flutter Snippets",
 	"description": "Supercharge your Flutter workflow with handy Snippets for VS Code",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"license": "MIT",
 	"publisher": "MarufHassan",
 	"homepage": "https://github.com/zyllus17/flutter-snippets",
@@ -37,7 +37,8 @@
 	],
 	"__metadata": {
 		"id": "f80b059d-1fc4-4b1d-a80d-7b76dba86157",
+		"publisherId": "bebda626-a7a6-48a6-9c2b-1b2de8d67383",
 		"publisherDisplayName": "Maruf Hassan",
-		"publisherId": "bebda626-a7a6-48a6-9c2b-1b2de8d67383"
+		"installedTimestamp": 1617307579027
 	}
 }
