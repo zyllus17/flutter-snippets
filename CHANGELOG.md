@@ -22,3 +22,13 @@ All notable changes to the "flutter-snippets" extension will be documented in th
 ## [1.0.2]
 
 - Added `Custom AppBar widget` as `appbar` to exract the `AppBar` in a separate dart file.
+
+## [1.0.3]
+
+- Added `Default Counter App` as `defaultApp` to create the `Default Counter App made by Flutter` in a separate dart file.
+- Replaced `fflat` which was `FlatButton` to `ftextbtn` `TextButton`  
+- Replaced `fraised` which was `RaisedButton` to `felevbtn` `ElevatedButton`  
+- Removed `key` from `appbar` to make it work with null-safety properly
+- Added `TextStyle` property as `fstyle`
+- Removed `;` from `ftheme`  🐛🔨
+- Added `Navigator` boilerplate widget as `fnav`
