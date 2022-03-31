@@ -4,7 +4,7 @@
     "body": [
       "Scaffold(",
       "  appBar: AppBar(",
-      "    title: Text('${1:Title}'),",
+      "    title: const Text('${1:Title}'),",
       "  ),",
       "  body: ${2:Container()}${0},",
       ");"
@@ -30,7 +30,7 @@
   "Flutter Icon widget snippet": {
     "prefix": "fic",
     "body": [
-      "Icon(Icons.${1:clear})${0}"
+      "const Icon(Icons.${1:clear})${0}"
     ],
     "description": "Flutter Icon widget snippet"
   },
@@ -46,8 +46,8 @@
   "Flutter Center widget snippet": {
     "prefix": "fcent",
     "body": [
-      "Center(",
-      "  child: ${1:Widget}(${0}),",
+      "const Center(",
+      "  child: ${1:Widget},",
       ")"
     ],
     "description": "Flutter Center widget snippet"
@@ -56,7 +56,7 @@
     "prefix": "frow",
     "body": [
       "Row(",
-      "  children: <Widget>[${0}],",
+      "  children: [${0}],",
       ")"
     ],
     "description": "Flutter Row widget snippet"
@@ -65,7 +65,7 @@
     "prefix": "fcol",
     "body": [
       "Column(",
-      "  children: <Widget>[${0}],",
+      "  children: [${0}],",
       ")"
     ],
     "description": "Flutter Column widget snippet"
@@ -74,7 +74,7 @@
     "prefix": "fstk",
     "body": [
       "Stack(",
-      "  children: <Widget>[${0}],",
+      "  children: [${0}],",
       ")"
     ],
     "description": "Flutter Stack widget snippet"
@@ -106,7 +106,7 @@
     "body": [
       "FloatingActionButton(",
       "  onPressed: () {${1}},",
-      "  child: Icon(Icons.${2:add}),",
+      "  child: const Icon(Icons.${2:add}),",
       "),"
     ],
     "description": "FloatingActionButton widget"
@@ -116,7 +116,7 @@
     "body": [
       "IconButton(",
       "  onPressed: () {${1}},",
-      "  icon: Icon(Icons.${2:add}),",
+      "  icon: const Icon(Icons.${2:add}),",
       "),"
     ],
     "description": "IconButton widget"
@@ -129,7 +129,7 @@
       "  child: Text(",
       "    \"${2:Elevated Button}\",",
       "  ),",
-      ")"
+      "),"
     ],
     "description": "ElevatedButton widget"
   },
@@ -138,7 +138,7 @@
     "body": [
       "GestureDetector(",
       "  onTap: () {${1}},",
-      "  child: ${2:Widget},",
+      "  child: ${2:Widget}",
       "),"
     ],
     "description": "GestureDetector widget"
@@ -159,7 +159,8 @@
       "Drawer(",
       "  child: ListView(",
       "    children: const <Widget>[${0}],",
-      "),  "
+      " ),",
+      "),"
     ],
     "description": "Drawer widget"
   },
@@ -170,37 +171,152 @@
     ],
     "description": "MediaQuery widget"
   },
+  "Theme of context": {
+    "prefix": "ftheme",
+    "body": [
+      "style: Theme.of(context).textTheme.${0},"
+    ],
+    "description": "Theme of context"
+  },
+  "Flutter Logo": {
+    "prefix": "flogo",
+    "body": [
+      "const FlutterLogo(),"
+    ],
+    "description": "Flutter Logo"
+  },
+  "SizedBox Widget": {
+    "prefix": "fszb",
+    "body": [
+      "const SizedBox(),"
+    ],
+    "description": "Sized Box Widget"
+  },
+  "SizedBox Widget with width": {
+    "prefix": "fszbw",
+    "body": [
+      "const SizedBox(width:${0}),${1}"
+    ],
+    "description": "SizedBox Widget with width"
+  },
+  "SizedBox Widget with height": {
+    "prefix": "fszbh",
+    "body": [
+      "const SizedBox(height:${0}),${1}"
+    ],
+    "description": "SizedBox Widget with height"
+  },
+  "ListView Widget": {
+    "prefix": "flistv",
+    "body": [
+      "ListView(",
+      "children: [${0}],",
+      "),"
+    ],
+    "description": "ListView Widget"
+  },
+  "Navigation widget": {
+    "prefix": "fnav",
+    "body": [
+      "Navigator.push(",
+      " context,",
+      " MaterialPageRoute(builder: (context) => ${1}),",
+      " );"
+    ],
+    "description": "Flutter Navigation widget"
+  },
+  "Navigator pop": {
+    "prefix": "fpop",
+    "body": [
+      "Navigator.pop(context);"
+    ],
+    "description": "Navigator pop"
+  },
+
+  
   "Material Package": {
     "prefix": "impM",
     "body": "import 'package:flutter/material.dart';",
-    "description": "Import flutter material package"
+    "description": "Import Flutter material package"
   },
   "Cupertino Package": {
     "prefix": "impC",
     "body": "import 'package:flutter/cupertino.dart';",
-    "description": "Import Flutter Cupertino package"
+    "description": "Import Flutter cupertino package"
   },
   "Services Package": {
     "prefix": "impS",
     "body": "import 'package:flutter/services.dart';",
-    "description": "Import Flutter Cupertino package"
+    "description": "Import Flutter services package"
   },
   "Foundation Package": {
     "prefix": "impF",
     "body": "import 'package:flutter/foundation.dart';",
-    "description": "Import Flutter Cupertino package"
+    "description": "Import Flutter foundation package"
   },
   "HTTP Package": {
     "prefix": "impH",
     "body": "import 'package:http/http.dart'as http;",
     "description": "Import Flutter HTTP package"
   },
+  "URL_Launcher package": {
+    "prefix": "impURL",
+    "body": [
+      "import 'package:url_launcher/url_launcher.dart';"
+    ],
+    "description": "Import Flutter url_launcher package"
+  },  
+  "Provider package": {
+    "prefix": "impP",
+    "body": [
+      "import 'package:provider/provider.dart';"
+    ],
+    "description": "Import Flutter provider package"
+  },
+  "Google_Fonts package": {
+    "prefix": "impGF",
+    "body": [
+      "import 'package:google_fonts/google_fonts.dart';"
+    ],
+    "description": "Import Flutter google_fonts package"
+  },
+  "Path_Provider package": {
+    "prefix": "impPP",
+    "body": [
+      "import 'package:path_provider/path_provider.dart';"
+    ],
+    "description": "Import Flutter path_provider package"
+  },
+  "Flutter_Bloc package": {
+    "prefix": "impB",
+    "body": [
+      "import 'package:flutter_bloc/flutter_bloc.dart';"
+    ],
+    "description": "Import Flutter flutter_bloc package"
+  },
+  "Sqflite package": {
+    "prefix": "impSQF",
+    "body": [
+      "import 'package:sqflite/sqflite.dart';"
+    ],
+    "description": "Import Flutter sqflite package"
+  },
+  "Flutter_Screenutil package": {
+    "prefix": "impFS",
+    "body": [
+      "import 'package:flutter_screenutil/flutter_screenutil.dart';"
+    ],
+    "description": "Import Flutter flutter_screenutil package"
+  },
+
+  
   "Creates a screen with text in center": {
     "prefix": "screen",
     "body": [
       "import 'package:flutter/material.dart';",
       "",
       "class ${1:Screen} extends StatelessWidget {",
+      "  const ${1:Screen}({Key? key}) : super(key: key);",
       "  @override",
       "  Widget build(BuildContext context) {",
       "    return Scaffold(",
@@ -208,9 +324,7 @@
       "        title: Text('${1:App Bar}'),",
       "      ),",
       "      body: Center(",
-      "        child: Container(",
-      "          child: Text('${1:Hello World}'),",
-      "        ),",
+      "        child: Text('${1:Hello World}'),",
       "      ),",
       "    );",
       "  }",
@@ -229,15 +343,20 @@
       "void main() => runApp(",
       "      DevicePreview(",
       "        enabled: !kReleaseMode,",
-      "        builder: (context) => MyApp(), // Wrap your app",
+      "        builder: (context) => const MyApp(), // Wrap your app",
       "      ),",
       "    );",
       "",
       "class MyApp extends StatelessWidget {",
+      "  const MyApp({Key? key}) : super(key: key);",
+      "",
       "  @override",
       "  Widget build(BuildContext context) {",
       "    return MaterialApp(",
       "        debugShowCheckedModeBanner: false,",
+      "        builder: DevicePreview.appBuilder,",
+      "        useInheritedMediaQuery: true,",
+      "        locale: DevicePreview.locale(context),",
       "        builder: DevicePreview.appBuilder,",
       "        title: 'Flutter Demo',",
       "        theme: ThemeData(",
@@ -252,33 +371,31 @@
   },
   "Material App": {
     "prefix": "mateapp",
-    "description": "Create a MaterialApp",
     "body": [
       "import 'package:flutter/material.dart';",
-      " ",
-      "void main() => runApp(MyApp());",
-      " ",
+      "",
+      "void main() {",
+      "  runApp(const MyApp());",
+      "}",
+      "",
       "class MyApp extends StatelessWidget {",
+      "  const MyApp({Key? key}) : super(key: key);",
+      "",
       "  @override",
       "  Widget build(BuildContext context) {",
       "    return MaterialApp(",
-      "      title: 'Material App',",
-      "      home: Scaffold(",
-      "        appBar: AppBar(",
-      "          title: Text('Material App Bar'),",
-      "        ),",
-      "        body: Center(",
-      "          child: Container(",
-      "            child: Text('Hello World'),",
-      "          ),",
-      "        ),",
+      "      title: 'Flutter Demo',",
+      "      theme: ThemeData(",
+      "        primarySwatch: Colors.blue,",
       "      ),",
+      "      home: ${1:MyHomePage()},",
       "    );",
       "  }",
       "}"
-    ]
+    ],
+    "description": "Creates a MaterialApp"
   },
-  "Cupertino App": {
+    "Cupertino App": {
     "prefix": "cupeapp",
     "description": "Create a CupertinoApp",
     "body": [
@@ -310,8 +427,8 @@
     "prefix": "build",
     "body": [
       "@override",
-      "Widget build(BuildContext context) {",
-      "  return ${0:};",
+      "Widget ${0:build}(BuildContext context) {",
+      "  return ${1:};",
       "}"
     ],
     "description": "Describes the part of the user interface represented by this widget."
@@ -365,18 +482,11 @@
     "body": [
       "@override",
       "void dispose() { ",
-      "  ${0:}",
       "  super.dispose();",
+      "  ${0:}",
       "}"
     ],
     "description": "Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again."
-  },
-  "Theme of context": {
-    "prefix": "ftheme",
-    "body": [
-      "Theme.of(context).${0}"
-    ],
-    "description": "Theme of context"
   },
   "CrossAxisAlignment": {
     "prefix": "caa",
@@ -392,71 +502,25 @@
     ],
     "description": "MainAxisAlignment"
   },
-  "Flutter Logo": {
-    "prefix": "flogo",
-    "body": [
-      "FlutterLogo(),"
-    ],
-    "description": "Flutter Logo"
-  },
-  "SizedBox Widget": {
-    "prefix": "fszb",
-    "body": [
-      "SizedBox(),"
-    ],
-    "description": "Sized Box Widget"
-  },
-  "SizedBox Widget with width": {
-    "prefix": "fszbw",
-    "body": [
-      "SizedBox(width:${0}),"
-    ],
-    "description": "SizedBox Widget with width"
-  },
-  "SizedBox Widget with height": {
-    "prefix": "fszbh",
-    "body": [
-      "SizedBox(height:${0}),"
-    ],
-    "description": "SizedBox Widget with height"
-  },
-  "ListView Widget": {
-    "prefix": "flistv",
-    "body": [
-      "ListView(",
-      "children: <Widget>[${0}],",
-      ")"
-    ],
-    "description": "ListView Widget"
-  },
-  "Navigation widget": {
-    "prefix": "fnav",
-    "body": [
-      "Navigator.push(",
-      " context,",
-      " MaterialPageRoute(builder: (context) => ${1}),",
-      " );"
-    ],
-    "description": "Flutter Navigation widget"
-  },
   "Custom AppBar widget": {
     "prefix": "appbar",
     "body": [
       "import 'package:flutter/material.dart';",
       "",
       "class ${1:AppBarScreen} extends StatelessWidget with PreferredSizeWidget {",
+      "@override",
       "  final Size preferredSize;",
       "",
-      "  ${1:AppBarScreen}() : preferredSize = Size.fromHeight(56.0);",
+      "  ${1:AppBarScreen}({Key? key}) : preferredSize = const Size.fromHeight(56.0), super(key: key);",
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
       "    return AppBar(",
-      "      title: Text(",
+      "      title: const Text(",
       "        '${2:AppBarScreen}',",
       "      ),",
       "      leading: IconButton(",
-      "        icon: Icon(Icons.arrow_back_ios),",
+      "        icon: const Icon(Icons.arrow_back_ios),",
       "        onPressed: () => Navigator.of(context).pop(),",
       "      ),",
       "      automaticallyImplyLeading: true,",
@@ -466,16 +530,18 @@
     ],
     "description": "Custom AppBar widget"
   },
-  "Default Counter App ": {
+  "Default Counter App": {
     "prefix": "defaultApp",
     "body": [
       "import 'package:flutter/material.dart';",
       "",
       "void main() {",
-      "  runApp(MyApp());",
+      "  runApp(const MyApp());",
       "}",
       "",
       "class MyApp extends StatelessWidget {",
+      "  const MyApp({Key? key}) : super(key: key);",
+      "",
       "  // This widget is the root of your application.",
       "  @override",
       "  Widget build(BuildContext context) {",
@@ -493,13 +559,13 @@
       "        // is not restarted.",
       "        primarySwatch: Colors.blue,",
       "      ),",
-      "      home: MyHomePage(title: 'Flutter Demo Home Page'),",
+      "      home: const MyHomePage(title: 'Flutter Demo Home Page'),",
       "    );",
       "  }",
       "}",
       "",
       "class MyHomePage extends StatefulWidget {",
-      "  MyHomePage({Key? key, required this.title}) : super(key: key);",
+      "  const MyHomePage({Key? key, required this.title}) : super(key: key);",
       "",
       "  // This widget is the home page of your application. It is stateful, meaning",
       "  // that it has a State object (defined below) that contains fields that affect",
@@ -513,7 +579,7 @@
       "  final String title;",
       "",
       "  @override",
-      "  _MyHomePageState createState() => _MyHomePageState();",
+      "  State<MyHomePage> createState() => _MyHomePageState();",
       "}",
       "",
       "class _MyHomePageState extends State<MyHomePage> {",
@@ -564,7 +630,7 @@
       "          // horizontal).",
       "          mainAxisAlignment: MainAxisAlignment.center,",
       "          children: <Widget>[",
-      "            Text(",
+      "            const Text(",
       "              'You have pushed the button this many times:',",
       "            ),",
       "            Text(",
@@ -577,19 +643,80 @@
       "      floatingActionButton: FloatingActionButton(",
       "        onPressed: _incrementCounter,",
       "        tooltip: 'Increment',",
-      "        child: Icon(Icons.add),",
+      "        child: const Icon(Icons.add),",
       "      ), // This trailing comma makes auto-formatting nicer for build methods.",
       "    );",
       "  }",
       "}"
     ],
-    "description": "Default Counter App "
+    "description": "Default Counter App"
   },
-  "Flutter TextStyle property": {
+    "Flutter TextStyle property": {
     "prefix": "fstyle",
     "body": [
-      "style: TextStyle($0),"
+      "style: const TextStyle(color: ${0:Color}, fontSize: ${1:}),"
     ],
     "description": "Flutter TextStyle property"
+  },
+  "Flutter String snippet": {
+    "prefix": "fstring",
+    "body": [
+      "static const String ${1:StringName} = \"${2:String}\";"
+    ],
+    "description": "String snippet"
+  },
+  "Flutter Color snippet": {
+    "prefix": "fcolor",
+    "body": [
+      "static const Color ${1:ColorName} = Color(0XFF${2:HexCode});",
+      ""
+    ],
+    "description": "Flutter Color snippet"
+  },
+  "Equatable class snippet": {
+    "prefix": "fequatable",
+    "body": [
+      "import 'package:equatable/equatable.dart';",
+      "",
+      "class ${1:ClassName} extends Equatable {",
+      "  @override",
+      "  List<Object?> get props => [${2}];",
+      "}",
+      ""
+    ],
+    "description": "Equatable class snippet"
+  },
+  "AppText class snippet": {
+    "prefix": "fapptext",
+    "body": [
+      "class AppText {",
+      "  AppText._();",
+      "  static const String ${1:StringName} = \\\"${2:String}\\\";",
+      "  ${3:}",
+      "}"
+    ],
+    "description": "AppText class snippet"
+  },
+  "AppImages class snippet": {
+    "prefix": "fappimage",
+    "body": [
+      "class AppImage {",
+      "  AppImage._();",
+      "  static const String ${1:ImageName} = \\\"assets/${2:ImageAddress}\\\";",
+      "  ${3:}",
+      "}"
+    ],
+    "description": "AppImages class snippet"
+  },
+  "AppColors class snippet": {
+    "prefix": "fappcolors",
+    "body": [
+      "class AppColors {",
+      "  AppColors._();",
+      "  static const Color ${1:ColorName} = Color(0XFF${2:HexCode});",
+      "  ${3:}",
+      "}"
+    ],
+    "description": "AppColors class snippet"
   }
 }
