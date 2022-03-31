@@ -23,6 +23,7 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `ftxt` | Text Widget| Creates a Text widget|
 | `fic` | Icon Widget| Creates a Icon widget|
 | `fcont` |Container Widget| Creates a Container widget|
+| `fcent` |Center Widget| Creates a Center widget|
 | `frow` | Row Widget| Creates a Row widget|
 | `fcol` | Column Widget| Creates a Column widget|
 | `fstk` | Column Widget| Creates a Column widget|
@@ -42,15 +43,24 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `fszbh` | SizedBox Widget with height| Creates a SizedBox widget with height|
 | `flistv` | ListView Widget| Creates a ListView widget|
 | `fnav` | Navigation Widget| Creates the Navigation widget|
+| `fpop` | Navigator pop| Creates the Navigator pop function|
 
 ## Import Snippets
 |Import|Package|Description|
 | ----- | ---- | --------- |
-| `impM` | Material Package | Import Material package|
-| `impC` | Cupertino Package | Import Cupertino package|
-| `impS` | Services Package | Import Services package|
-| `impF` | Foundation Package | Import Foundation package|
-| `impH` | HTTP Package | Import HTTP package|
+| `impM` | material Package | Import Material package|
+| `impC` | cupertino Package | Import Cupertino package|
+| `impS` | services Package | Import Services package|
+| `impF` | foundation Package | Import Foundation package|
+| `impH` | http Package | Import HTTP package|
+| `impURL` | url_launcher Package | Import URL_Launcher package|
+| `impP` | provider Package | Import Provider package|
+| `impGF` | google_fonts Package | Import Google_Fonts package|
+| `impPP` | path_provider Package | Import Path_Provider package|
+| `impB` | flutter_bloc Package | Import Flutter_Bloc package|
+| `impGF` | sqflite Package | Import Sqflite package|
+| `impFS` | flutter_screenutil Package | Import Flutter_Screenutil package|
+
 
 ## Shortcut Snippets
 |Shortcut|Expanded|Description|
@@ -66,9 +76,15 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `dis` | Dispose | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.|
 | `caa` | CrossAxisAlignment| Creates CrossAxisAlignment|
 | `maa` | MainAxisAlignment | Creates MainAxisAlignment|
-| `fstyle` | Flutter TextStyle property | Creates Flutter TextStyle |
 | `appbar` | Custom AppBar widget | Creates Custom AppBar widget|
+| `fstyle` | Flutter TextStyle property | Creates Flutter TextStyle |
 | `defaultApp` | Default Counter App | Creates Default Counter App |
+| `fstring` | Flutter String snippet | Creates Flutter String snippet |
+| `fcolor` | Flutter Color snippet | Creates Flutter Color snippet |
+| `fequatable` | Flutter Equatable class snippet | Creates Equatable class snippet |
+| `fapptext` | Flutter AppText class snippet | Creates AppText class snippet for Strings used in app|
+| `fappimage` | Flutter AppImage class snippet | Creates AppImage class snippet for Image assets used in app|
+| `fappcolor` | Flutter AppColors class snippet | Creates AppColors class snippet for Color used in app|
 
 ---
 
