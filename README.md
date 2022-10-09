@@ -26,7 +26,7 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `fcent` |Center Widget| Creates a Center widget|
 | `frow` | Row Widget| Creates a Row widget|
 | `fcol` | Column Widget| Creates a Column widget|
-| `fstk` | Column Widget| Creates a Column widget|
+| `fstk` | Stack Widget| Creates a Stack widget|
 | `falign` |Align Widget| Creates a Align widget|
 | `ftextbtn` | TextButton Widget| Creates a TextButton widget|
 | `fab` | FloatingActionButton Widget| Creates a FloatingActionButton widget|
