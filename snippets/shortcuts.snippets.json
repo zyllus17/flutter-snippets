@@ -1,315 +1,4 @@
 {
-  "Scaffold widget snippet": {
-    "prefix": "fscaf",
-    "body": [
-      "Scaffold(",
-      "  appBar: AppBar(",
-      "    title: const Text('${1:Title}'),",
-      "  ),",
-      "  body: ${2:Container()}${0},",
-      ");"
-    ],
-    "description": "Scaffold widget snippet"
-  },
-  "Expand widget snippet": {
-    "prefix": "fex",
-    "body": [
-      "Expanded(",
-      "  child: ${1:Widget},${0}",
-      ")"
-    ],
-    "description": "Expand widget snippet"
-  },
-  "Text widget snippet": {
-    "prefix": "ftxt",
-    "body": [
-      "Text('${1:text}'),${0}"
-    ],
-    "description": "Text widget snippet"
-  },
-  "Flutter Icon widget snippet": {
-    "prefix": "fic",
-    "body": [
-      "const Icon(Icons.${1:clear})${0}"
-    ],
-    "description": "Flutter Icon widget snippet"
-  },
-  "Flutter Container widget snippet": {
-    "prefix": "fcont",
-    "body": [
-      "Container(",
-      "  child: ${1}",
-      ")"
-    ],
-    "description": "Flutter Container widget snippet"
-  },
-  "Flutter Center widget snippet": {
-    "prefix": "fcent",
-    "body": [
-      "const Center(",
-      "  child: ${1:Widget},",
-      ")"
-    ],
-    "description": "Flutter Center widget snippet"
-  },
-  "Flutter Row widget snippet": {
-    "prefix": "frow",
-    "body": [
-      "Row(",
-      "  children: [${0}],",
-      ")"
-    ],
-    "description": "Flutter Row widget snippet"
-  },
-  "Flutter Column widget snippet": {
-    "prefix": "fcol",
-    "body": [
-      "Column(",
-      "  children: [${0}],",
-      ")"
-    ],
-    "description": "Flutter Column widget snippet"
-  },
-  "Flutter Stack widget snippet": {
-    "prefix": "fstk",
-    "body": [
-      "Stack(",
-      "  children: [${0}],",
-      ")"
-    ],
-    "description": "Flutter Stack widget snippet"
-  },
-  "Align widget": {
-    "prefix": "falign",
-    "body": [
-      "Align(",
-      "  alignment: Alignment${1},",
-      "  child:${2:Widget}",
-      "  ),"
-    ],
-    "description": "Align widget"
-  },
-  "Textbutton widget": {
-    "prefix": "ftextbtn",
-    "body": [
-      "TextButton(",
-      "  onPressed: () {${1}},",
-      "  child: Text(",
-      "    \"${2:Text Button}\",",
-      "  ),",
-      "),"
-    ],
-    "description": "Textbutton widget"
-  },
-  "FloatingActionButton widget": {
-    "prefix": "fab",
-    "body": [
-      "FloatingActionButton(",
-      "  onPressed: () {${1}},",
-      "  child: const Icon(Icons.${2:add}),",
-      "),"
-    ],
-    "description": "FloatingActionButton widget"
-  },
-  "IconButton widget": {
-    "prefix": "ficbtn",
-    "body": [
-      "IconButton(",
-      "  onPressed: () {${1}},",
-      "  icon: const Icon(Icons.${2:add}),",
-      "),"
-    ],
-    "description": "IconButton widget"
-  },
-  "ElevatedButton widget": {
-    "prefix": "felevbtn",
-    "body": [
-      "ElevatedButton(",
-      "  onPressed: () {${1}},",
-      "  child: Text(",
-      "    \"${2:Elevated Button}\",",
-      "  ),",
-      "),"
-    ],
-    "description": "ElevatedButton widget"
-  },
-  "GestureDetector widget": {
-    "prefix": "fgesdet",
-    "body": [
-      "GestureDetector(",
-      "  onTap: () {${1}},",
-      "  child: ${2:Widget}",
-      "),"
-    ],
-    "description": "GestureDetector widget"
-  },
-  "InkWell widget": {
-    "prefix": "fink",
-    "body": [
-      "InkWell(",
-      "  onTap: () {${1}},",
-      "  child:${2:Widget}",
-      "),"
-    ],
-    "description": "RaisedButton widget"
-  },
-  "Drawer widget": {
-    "prefix": "fdrawer",
-    "body": [
-      "Drawer(",
-      "  child: ListView(",
-      "    children: const <Widget>[${0}],",
-      " ),",
-      "),"
-    ],
-    "description": "Drawer widget"
-  },
-  "MediaQuery widget": {
-    "prefix": "fmeque",
-    "body": [
-      "MediaQuery.of(context).${0};"
-    ],
-    "description": "MediaQuery widget"
-  },
-  "Theme of context": {
-    "prefix": "ftheme",
-    "body": [
-      "style: Theme.of(context).textTheme.${0},"
-    ],
-    "description": "Theme of context"
-  },
-  "Flutter Logo": {
-    "prefix": "flogo",
-    "body": [
-      "const FlutterLogo(),"
-    ],
-    "description": "Flutter Logo"
-  },
-  "SizedBox Widget": {
-    "prefix": "fszb",
-    "body": [
-      "const SizedBox(),"
-    ],
-    "description": "Sized Box Widget"
-  },
-  "SizedBox Widget with width": {
-    "prefix": "fszbw",
-    "body": [
-      "const SizedBox(width:${0}),${1}"
-    ],
-    "description": "SizedBox Widget with width"
-  },
-  "SizedBox Widget with height": {
-    "prefix": "fszbh",
-    "body": [
-      "const SizedBox(height:${0}),${1}"
-    ],
-    "description": "SizedBox Widget with height"
-  },
-  "ListView Widget": {
-    "prefix": "flistv",
-    "body": [
-      "ListView(",
-      "children: [${0}],",
-      "),"
-    ],
-    "description": "ListView Widget"
-  },
-  "Navigation widget": {
-    "prefix": "fnav",
-    "body": [
-      "Navigator.push(",
-      " context,",
-      " MaterialPageRoute(builder: (context) => ${1}),",
-      " );"
-    ],
-    "description": "Flutter Navigation widget"
-  },
-  "Navigator pop": {
-    "prefix": "fpop",
-    "body": [
-      "Navigator.pop(context);"
-    ],
-    "description": "Navigator pop"
-  },
-
-  
-  "Material Package": {
-    "prefix": "impM",
-    "body": "import 'package:flutter/material.dart';",
-    "description": "Import Flutter material package"
-  },
-  "Cupertino Package": {
-    "prefix": "impC",
-    "body": "import 'package:flutter/cupertino.dart';",
-    "description": "Import Flutter cupertino package"
-  },
-  "Services Package": {
-    "prefix": "impS",
-    "body": "import 'package:flutter/services.dart';",
-    "description": "Import Flutter services package"
-  },
-  "Foundation Package": {
-    "prefix": "impF",
-    "body": "import 'package:flutter/foundation.dart';",
-    "description": "Import Flutter foundation package"
-  },
-  "HTTP Package": {
-    "prefix": "impH",
-    "body": "import 'package:http/http.dart'as http;",
-    "description": "Import Flutter HTTP package"
-  },
-  "URL_Launcher package": {
-    "prefix": "impURL",
-    "body": [
-      "import 'package:url_launcher/url_launcher.dart';"
-    ],
-    "description": "Import Flutter url_launcher package"
-  },  
-  "Provider package": {
-    "prefix": "impP",
-    "body": [
-      "import 'package:provider/provider.dart';"
-    ],
-    "description": "Import Flutter provider package"
-  },
-  "Google_Fonts package": {
-    "prefix": "impGF",
-    "body": [
-      "import 'package:google_fonts/google_fonts.dart';"
-    ],
-    "description": "Import Flutter google_fonts package"
-  },
-  "Path_Provider package": {
-    "prefix": "impPP",
-    "body": [
-      "import 'package:path_provider/path_provider.dart';"
-    ],
-    "description": "Import Flutter path_provider package"
-  },
-  "Flutter_Bloc package": {
-    "prefix": "impB",
-    "body": [
-      "import 'package:flutter_bloc/flutter_bloc.dart';"
-    ],
-    "description": "Import Flutter flutter_bloc package"
-  },
-  "Sqflite package": {
-    "prefix": "impSQF",
-    "body": [
-      "import 'package:sqflite/sqflite.dart';"
-    ],
-    "description": "Import Flutter sqflite package"
-  },
-  "Flutter_Screenutil package": {
-    "prefix": "impFS",
-    "body": [
-      "import 'package:flutter_screenutil/flutter_screenutil.dart';"
-    ],
-    "description": "Import Flutter flutter_screenutil package"
-  },
-
-  
   "Creates a screen with text in center": {
     "prefix": "screen",
     "body": [
@@ -395,7 +84,7 @@
     ],
     "description": "Creates a MaterialApp"
   },
-    "Cupertino App": {
+  "Cupertino App": {
     "prefix": "cupeapp",
     "description": "Create a CupertinoApp",
     "body": [
@@ -472,7 +161,7 @@
       "@override",
       "void initState() { ",
       "  super.initState();",
-      "  ${0:}",
+      "  ${1:}",
       "}"
     ],
     "description": "Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates."
@@ -651,10 +340,10 @@
     ],
     "description": "Default Counter App"
   },
-    "Flutter TextStyle property": {
+  "Flutter TextStyle property": {
     "prefix": "fstyle",
     "body": [
-      "style: const TextStyle(color: ${0:Color}, fontSize: ${1:}),"
+      "style: const TextStyle(color: ${1:Color}, fontSize: ${2:}),"
     ],
     "description": "Flutter TextStyle property"
   },
@@ -718,5 +407,63 @@
       "}"
     ],
     "description": "AppColors class snippet"
+  },
+  "Stateful Widget": {
+    "prefix": "stful",
+    "body": [
+      "class ${1:MyWidget} extends StatefulWidget {",
+      "  const ${1:MyWidget}({super.key});",
+      "",
+      "  @override",
+      "  State<${1:MyWidget}> createState() => _${1:MyWidget}State();",
+      "}",
+      "",
+      "class _${1:MyWidget}State extends State<${1:MyWidget}> {",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return ${2:Container()};",
+      "  }",
+      "}"
+    ],
+    "description": "Stateful Widget"
+  },
+  "Stateless Widget": {
+    "prefix": "stless",
+    "body": [
+      "class ${1:MyWidget} extends StatelessWidget {",
+      "  const ${1:MyWidget}({super.key});",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return ${2:Container()};",
+      "  }",
+      "}"
+    ],
+    "description": "Stateless Widget"
+  },
+  "Enum snippet": {
+    "prefix": "enum",
+    "body": [
+      "enum ${1:EnumName} {{$2}}"
+    ],
+    "description": "Enum snippet"
+  },
+  "print": {
+    "prefix": "print",
+    "body": [
+      "print(${1:object});"
+    ],
+    "description": "print"
+  },
+  "try catch statement": {
+    "prefix": "trycatch",
+    "body": [
+      "try {",
+      "  ${1:object} ",
+      "} catch (${2:e}) {",
+      "  ${3:print(e);} ",
+      "}"
+    ],
+    "description": "try catch statement"
   }
 }

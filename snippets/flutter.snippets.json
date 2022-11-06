@@ -1,0 +1,235 @@
+{
+    "Scaffold widget snippet": {
+        "prefix": "fscaf",
+        "body": [
+            "Scaffold(",
+            "  appBar: AppBar(",
+            "    title: const Text('${1:Title}'),",
+            "  ),",
+            "  body: ${2:Container()}${3},",
+            ");"
+        ],
+        "description": "Scaffold widget snippet"
+    },
+    "Expand widget snippet": {
+        "prefix": "fex",
+        "body": [
+            "Expanded(",
+            "  child: ${1:Widget},${2}",
+            ")"
+        ],
+        "description": "Expand widget snippet"
+    },
+    "Text widget snippet": {
+        "prefix": "ftxt",
+        "body": [
+            "Text('${1:text}'),${2}"
+        ],
+        "description": "Text widget snippet"
+    },
+    "Flutter Icon widget snippet": {
+        "prefix": "fic",
+        "body": [
+            "const Icon(Icons.${1:clear})${2}"
+        ],
+        "description": "Flutter Icon widget snippet"
+    },
+    "Flutter Container widget snippet": {
+        "prefix": "fcont",
+        "body": [
+            "Container(",
+            "  child: ${1}",
+            ")"
+        ],
+        "description": "Flutter Container widget snippet"
+    },
+    "Flutter Center widget snippet": {
+        "prefix": "fcent",
+        "body": [
+            "const Center(",
+            "  child: ${1},",
+            ")"
+        ],
+        "description": "Flutter Center widget snippet"
+    },
+    "Flutter Row widget snippet": {
+        "prefix": "frow",
+        "body": [
+            "Row(",
+            "  children: [${1}],",
+            ")"
+        ],
+        "description": "Flutter Row widget snippet"
+    },
+    "Flutter Column widget snippet": {
+        "prefix": "fcol",
+        "body": [
+            "Column(",
+            "  children: [${1}],",
+            ")"
+        ],
+        "description": "Flutter Column widget snippet"
+    },
+    "Flutter Stack widget snippet": {
+        "prefix": "fstk",
+        "body": [
+            "Stack(",
+            "  children: [${1}],",
+            ")"
+        ],
+        "description": "Flutter Stack widget snippet"
+    },
+    "Align widget": {
+        "prefix": "falign",
+        "body": [
+            "Align(",
+            "  alignment: Alignment${1},",
+            "  child:${2}",
+            "  ),"
+        ],
+        "description": "Align widget"
+    },
+    "Textbutton widget": {
+        "prefix": "ftextbtn",
+        "body": [
+            "TextButton(",
+            "  onPressed: () {${1}},",
+            "  child: Text(",
+            "    \"${2:Text Button}\",",
+            "  ),",
+            "),"
+        ],
+        "description": "Textbutton widget"
+    },
+    "FloatingActionButton widget": {
+        "prefix": "fab",
+        "body": [
+            "FloatingActionButton(",
+            "  onPressed: () {${1}},",
+            "  child: const Icon(Icons.${2:add}),",
+            "),"
+        ],
+        "description": "FloatingActionButton widget"
+    },
+    "IconButton widget": {
+        "prefix": "ficbtn",
+        "body": [
+            "IconButton(",
+            "  onPressed: () {${1}},",
+            "  icon: const Icon(Icons.${2:add}),",
+            "),"
+        ],
+        "description": "IconButton widget"
+    },
+    "ElevatedButton widget": {
+        "prefix": "felevbtn",
+        "body": [
+            "ElevatedButton(",
+            "  onPressed: () {${1}},",
+            "  child: Text(",
+            "    \"${2:Elevated Button}\",",
+            "  ),",
+            "),"
+        ],
+        "description": "ElevatedButton widget"
+    },
+    "GestureDetector widget": {
+        "prefix": "fgesdet",
+        "body": [
+            "GestureDetector(",
+            "  onTap: () {${1}},",
+            "  child: ${2:Widget}",
+            "),"
+        ],
+        "description": "GestureDetector widget"
+    },
+    "InkWell widget": {
+        "prefix": "fink",
+        "body": [
+            "InkWell(",
+            "  onTap: () {${1}},",
+            "  child:${2:Widget}",
+            "),"
+        ],
+        "description": "InkWell Button widget"
+    },
+    "Drawer widget": {
+        "prefix": "fdrawer",
+        "body": [
+            "Drawer(",
+            "  child: ListView(",
+            "    children: const <Widget>[${0}],",
+            " ),",
+            "),"
+        ],
+        "description": "Drawer widget"
+    },
+    "MediaQuery widget": {
+        "prefix": "fmeque",
+        "body": [
+            "MediaQuery.of(context).${1};"
+        ],
+        "description": "MediaQuery of context"
+    },
+    "Theme of context": {
+        "prefix": "ftheme",
+        "body": [
+            "style: Theme.of(context).textTheme.${1},"
+        ],
+        "description": "Theme of context"
+    },
+    "Flutter Logo": {
+        "prefix": "flogo",
+        "body": [
+            "const FlutterLogo(),"
+        ],
+        "description": "Flutter Logo"
+    },
+    "SizedBox Widget": {
+        "prefix": "fszb",
+        "body": [
+            "const SizedBox(${1}),${2}"
+        ],
+        "description": "Sized Box Widget"
+    },
+    "SizedBox Widget with width": {
+        "prefix": "fszbw",
+        "body": [
+            "const SizedBox(width:${1}),${2}"
+        ],
+        "description": "SizedBox Widget with width"
+    },
+    "SizedBox Widget with height": {
+        "prefix": "fszbh",
+        "body": [
+            "const SizedBox(height:${1}),${2}"
+        ],
+        "description": "SizedBox Widget with height"
+    },
+    "ListView Widget": {
+        "prefix": "flistv",
+        "body": [
+            "ListView(",
+            "children: [${1}],",
+            "),"
+        ],
+        "description": "ListView Widget"
+    },
+    "Navigation widget": {
+        "prefix": "fnav",
+        "body": [
+            "Navigator.push(",
+            " context,",
+            " MaterialPageRoute(builder: (context) => ${1}),",
+            " );"
+        ],
+        "description": "Flutter Navigation widget"
+    },
+    "Navigator pop": {
+        "prefix": "fpop",
+        "body": [
+            "Navigator.pop(context);"
+        ],
+        "description": "Navigator pop"
+    }
+}

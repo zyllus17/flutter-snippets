@@ -1,0 +1,9 @@
+{
+    "Android Internet permission": {
+        "prefix": "pINTERNET",
+        "body": [
+            "<uses-permission android:name=\"android.permission.INTERNET\" />"
+        ],
+        "description": "Android Internet permission"
+    }
+}

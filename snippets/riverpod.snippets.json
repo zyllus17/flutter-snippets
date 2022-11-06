@@ -1,0 +1,147 @@
+{
+    "Consumer Stateless": {
+        "scope": "dart",
+        "prefix": "stlessConsumer",
+        "description": "Create a ConsumerStatelessWidget",
+        "body": [
+            "class ${1} extends ConsumerWidget {",
+            "  const ${1}({super.key});",
+            "  @override",
+            "  Widget build(BuildContext context, WidgetRef ref) {",
+            "    return ${2:Container()};",
+            "  }",
+            "}"
+        ]
+    },
+    "Consumer Stateful": {
+        "scope": "dart",
+        "prefix": "stfulConsumer",
+        "description": "Create a ConsumerStatefulWidget",
+        "body": [
+            "class ${1} extends ConsumerStatefulWidget {",
+            "  const ${1}({super.key});",
+            "  @override",
+            "  ConsumerState<ConsumerStatefulWidget> createState() => _${1}State();",
+            "}",
+            "class _${1}State extends ConsumerState<${1}> {",
+            "  @override",
+            "  Widget build(BuildContext context) {",
+            "    return ${2:Container()};",
+            "  }",
+            "}"
+        ]
+    },
+    "Change Notifier Provider": {
+        "scope": "dart",
+        "prefix": "changeNotifierProvider",
+        "description": "Create a ChangeNotifierProvider",
+        "body": [
+            "final ${1}Provider = ChangeNotifierProvider<${2}>((ref) ",
+            "  => ${3};",
+            ");"
+        ]
+    },
+    "Change Notifier": {
+        "scope": "dart",
+        "prefix": "changeNotifier",
+        "description": "Create a ChangeNotifier",
+        "body": [
+            "class ${1}Notifier extends ChangeNotifier {",
+            "${2}",
+            "}"
+        ]
+    },
+    "Future Provider": {
+        "scope": "dart",
+        "prefix": "futureProvider",
+        "description": "Create a FutureProvider",
+        "body": [
+            "final ${1}Provider = FutureProvider<${2}>((ref) async {",
+            "  return ${3};",
+            "});"
+        ]
+    },
+    "Hook Consumer Stateless Widget": {
+        "scope": "dart",
+        "prefix": "stlessHookConsumer",
+        "description": "Create a HookConsumerWidget",
+        "body": [
+            "class ${1} extends HookConsumerWidget {",
+            "\tconst ${1}({super.key});",
+            "\t@override",
+            "\tWidget build(BuildContext context, WidgetRef ref) {",
+            "\t\treturn ${2:Container()};",
+            "\t}",
+            "}"
+        ]
+    },
+    "Hook Consumer Stateful Widget": {
+        "scope": "dart",
+        "prefix": "stfulHookConsumer",
+        "description": "Creates a StatefulHookConsumerWidget",
+        "body": [
+            "class ${1} extends StatefulHookConsumerWidget {",
+            "\tconst ${1}({super.key});\n",
+            "\t@override",
+            "\tConsumerState<ConsumerStatefulWidget> createState() => _${1}State();",
+            "}",
+            "class _${1}State extends ConsumerState<${1}> {",
+            "\t@override",
+            "\tWidget build(BuildContext context) {",
+            "\t\treturn ${2:Container()};",
+            "\t}",
+            "}"
+        ]
+    },
+    "Provider": {
+        "scope": "dart",
+        "prefix": "provider",
+        "description": "Create a simple Provider",
+        "body": [
+            "final ${1}Provider = Provider<${2}>((ref) {",
+            "\treturn ${3};",
+            "});"
+        ]
+    },
+    "State Notifier Provider": {
+        "scope": "dart",
+        "prefix": "stateNotifierProvider",
+        "description": "Create a StateNotifierProvider",
+        "body": [
+            "final ${1}Provider = StateNotifierProvider<${2}>((ref) {",
+            "\treturn ${3}",
+            "});"
+        ]
+    },
+    "State Notifier": {
+        "scope": "dart",
+        "prefix": "stateNotifier",
+        "description": "Create a StateNotifier with Editable Parameter",
+        "body": [
+            "class ${1}Notifier extends StateNotifier<${2}> {",
+            "\t${1}Notifier(): super(${3});",
+            "\t${4}",
+            "}"
+        ]
+    },
+    "State Provider": {
+        "scope": "dart",
+        "prefix": "stateProvider",
+        "description": "Create a StateProvider",
+        "body": [
+            "final ${1}Provider = StateProvider<${2}>((ref) {",
+            "\treturn ${3};",
+            "});"
+        ]
+    },
+    "Stream Provider": {
+        "scope": "dart",
+        "prefix": "streamProvider",
+        "description": "Create a StreamProvider",
+        "body": [
+            "final ${1}Provider = StreamProvider<${2}>((ref) async* {",
+            "\treturn ${3};",
+            "});"
+        ]
+    }
+}

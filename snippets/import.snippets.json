@@ -1,0 +1,97 @@
+{
+    "Material Package": {
+        "prefix": "impM",
+        "body": "import 'package:flutter/material.dart';",
+        "description": "Import Flutter material package"
+    },
+    "Cupertino Package": {
+        "prefix": "impC",
+        "body": "import 'package:flutter/cupertino.dart';",
+        "description": "Import Flutter cupertino package"
+    },
+    "Services Package": {
+        "prefix": "impS",
+        "body": "import 'package:flutter/services.dart';",
+        "description": "Import Flutter services package"
+    },
+    "Foundation Package": {
+        "prefix": "impF",
+        "body": "import 'package:flutter/foundation.dart';",
+        "description": "Import Flutter foundation package"
+    },
+    "HTTP Package": {
+        "prefix": "impH",
+        "body": "import 'package:http/http.dart'as http;",
+        "description": "Import Flutter HTTP package"
+    },
+    "URL_Launcher package": {
+        "prefix": "impURL",
+        "body": [
+            "import 'package:url_launcher/url_launcher.dart';"
+        ],
+        "description": "Import Flutter url_launcher package"
+    },
+    "Provider package": {
+        "prefix": "impP",
+        "body": [
+            "import 'package:provider/provider.dart';"
+        ],
+        "description": "Import Flutter provider package"
+    },
+    "Google_Fonts package": {
+        "prefix": "impGF",
+        "body": [
+            "import 'package:google_fonts/google_fonts.dart';"
+        ],
+        "description": "Import Flutter google_fonts package"
+    },
+    "Path_Provider package": {
+        "prefix": "impPP",
+        "body": [
+            "import 'package:path_provider/path_provider.dart';"
+        ],
+        "description": "Import Flutter path_provider package"
+    },
+    "Flutter_Bloc package": {
+        "prefix": "impB",
+        "body": [
+            "import 'package:flutter_bloc/flutter_bloc.dart';"
+        ],
+        "description": "Import Flutter flutter_bloc package"
+    },
+    "Sqflite package": {
+        "prefix": "impSQF",
+        "body": [
+            "import 'package:sqflite/sqflite.dart';"
+        ],
+        "description": "Import Flutter sqflite package"
+    },
+    "Flutter_Screenutil package": {
+        "prefix": "impFS",
+        "body": [
+            "import 'package:flutter_screenutil/flutter_screenutil.dart';"
+        ],
+        "description": "Import Flutter flutter_screenutil package"
+    },
+    "Internationalization Package": {
+        "prefix": "impI",
+        "body": [
+            "import 'package:intl/intl.dart';"
+        ],
+        "description": "Import Flutter intl Package"
+    },
+    "Riverpod package": {
+        "prefix": "impR",
+        "body": [
+            "import 'package:flutter_riverpod/flutter_riverpod.dart';"
+        ],
+        "description": "Import Flutter riverpod package"
+    },
+    "Import flutter_hooks package": {
+        "prefix": "impHooks",
+        "body": [
+            "import 'package:flutter_hooks/flutter_hooks.dart';"
+        ],
+        "description": "Import flutter_hooks package"
+    }
+}
