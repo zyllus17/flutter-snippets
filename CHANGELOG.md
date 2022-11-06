@@ -76,3 +76,17 @@ All notable changes to the "flutter-snippets" extension will be documented in th
 - Added `fapptext` class snippet
 - Added `fappimage` class snippet
 - Added `fappcolor` class snippet
+## [1.0.5]
+
+- Seperated different snippet types in different folders
+- Added `riverpod.snippets` file
+- Added `android_permissions.snippets` file
+- Fixed `fszb` bug
+- Added `intl` package snippet
+- Added `INTERNET permission` snippet
+- Added `enum` snippet
+- Added `riverpod` related snippets
+- Added `trycatch` snippet
+- Added `print` snippet
+- Fixed some misc bugs
+
