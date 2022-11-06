@@ -2,7 +2,7 @@
 	"name": "flutter-snippets",
 	"displayName": "Flutter Snippets",
 	"description": "Supercharge your Flutter workflow with handy Snippets for VS Code",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"license": "MIT",
 	"publisher": "MarufHassan",
 	"homepage": "https://github.com/zyllus17/flutter-snippets",
@@ -17,14 +17,6 @@
 		"type": "git",
 		"url": "https://github.com/zyllus17/flutter-snippets"
 	},
-	"contributes": {
-		"snippets": [
-			{
-				"language": "dart",
-				"path": "./snippets/snippets.json"
-			}
-		]
-	},
 	"bugs": {
 		"url": "https://github.com/zyllus17/flutter-snippets/issues",
 		"email": "csengineer.maruf@gmail.com"
@@ -33,12 +25,40 @@
 		"dart",
 		"snippet",
 		"flutter",
-		"widgets"
+		"widgets",
+		"riverpod",
+		"hooks",
+		"provider",
+		"shortcuts"
 	],
 	"__metadata": {
 		"id": "f80b059d-1fc4-4b1d-a80d-7b76dba86157",
 		"publisherId": "bebda626-a7a6-48a6-9c2b-1b2de8d67383",
 		"publisherDisplayName": "Maruf Hassan",
 		"installedTimestamp": 1617307579027
+	},
+	"contributes": {
+		"snippets": [
+			{
+				"language": "dart",
+				"path": "./snippets/android_permissions.snippets.json"
+			},
+			{
+				"language": "dart",
+				"path": "./snippets/flutter.snippets.json"
+			},
+			{
+				"language": "dart",
+				"path": "./snippets/import.snippets.json"
+			},
+			{
+				"language": "dart",
+				"path": "./snippets/riverpod.snippets.json"
+			},
+			{
+				"language": "dart",
+				"path": "./snippets/shortcuts.snippets.json"
+			}
+		]
 	}
 }
