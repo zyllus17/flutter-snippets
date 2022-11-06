@@ -15,6 +15,7 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 
 ---
 # Snippets
+
 ## Flutter Snippets
 |Snippet|Widget|Description|
 | ----- | ---- | --------- |
@@ -26,7 +27,7 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `fcent` |Center Widget| Creates a Center widget|
 | `frow` | Row Widget| Creates a Row widget|
 | `fcol` | Column Widget| Creates a Column widget|
-| `fstk` | Column Widget| Creates a Column widget|
+| `fstk` | Stack Widget| Creates a Stack widget|
 | `falign` |Align Widget| Creates a Align widget|
 | `ftextbtn` | TextButton Widget| Creates a TextButton widget|
 | `fab` | FloatingActionButton Widget| Creates a FloatingActionButton widget|
@@ -60,7 +61,9 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `impB` | flutter_bloc Package | Import Flutter_Bloc package|
 | `impGF` | sqflite Package | Import Sqflite package|
 | `impFS` | flutter_screenutil Package | Import Flutter_Screenutil package|
-
+| `impI` | intl Package | Import Intl package|
+| `impR` | riverpod Package | Import Riverpod package|
+| `impHooks` | flutter_hooks Package | Import Flutter_Hooks package|
 
 ## Shortcut Snippets
 |Shortcut|Expanded|Description|
@@ -86,6 +89,27 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `fappimage` | Flutter AppImage class snippet | Creates AppImage class snippet for Image assets used in app|
 | `fappcolor` | Flutter AppColors class snippet | Creates AppColors class snippet for Color used in app|
 
+## Riverpod Snippets
+|Snippet|Expanded|Description|
+| ----- | ---- | --------- |
+| `stlessConsumer` |ConsumerStatelessWidget snippet | Create a Flutter ConsumerStatelessWidget snippet|
+| `stfulConsumer` |  ConsumerStatefulWidget snippet | Creates Flutter ConsumerStatefulWidget snippet |
+| `changeNotifierProvider` |  ChangeNotifierProvider snippet | Creates Flutter ChangeNotifierProvider snippet |
+| `changeNotifier` |  ChangeNotifier snippet | Creates Flutter ChangeNotifier snippet |
+| `futureProvider` |  FutureProvider snippet | Creates Flutter FutureProvider snippet |
+| `stlessHookConsumer` |  HookConsumerWidget snippet | Creates Flutter HookConsumerWidget snippet |
+| `stfulHookConsumer` |  StatefulHookConsumerWidget snippet | Creates Flutter StatefulHookConsumerWidget snippet |
+| `provider` |  Provider snippet | Creates Flutter Provider snippet |
+| `stateNotifierProvider` |  StateNotifierProvider snippet | Creates Flutter StateNotifierProvider snippet |
+| `stateNotifier` |  StateNotifier snippet | Creates Flutter StateNotifier snippet |
+| `stateProvider` |  StateProvider snippet | Creates Flutter StateProvider snippet |
+| `streamProvider` |  StreamProvider snippet | Creates Flutter StreamProvider snippet |
+
+## Android Permission Snippets
+|Permission|Expanded|Description|
+| ----- | ---- | --------- |
+| `perInt` | INTERNET Permission | Android Internet permission|
+
 ---
 
 # Contributors
@@ -100,8 +124,6 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 ## Requirements
 
 Vscode: ^1.51.0
-
-Initial release of Flutter Snippets
 ## License
 
 **[MIT license](https://github.com/zyllus17/flutter-snippets/blob/master/LICENSE)**
@@ -116,3 +138,5 @@ Initial release of Flutter Snippets
 [Flutter Widget Snippet](https://github.com/Alexisvt/flutter-snippets)
 
 [Awesome Flutter Snippet](https://github.com/Nash0x7E2/awesome-flutter-snippets)
+
+[Flutter Riverpod Snippets](https://github.com/RobertBrunhage/flutter-riverpod-snippets)
