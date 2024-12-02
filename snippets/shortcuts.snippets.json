@@ -465,5 +465,21 @@
       "}"
     ],
     "description": "try catch statement"
-  }
+  },
+  "Creates freezed state": {
+  "prefix": "freezed",
+  "body": [
+    "import 'package:freezed_annotation/freezed_annotation.dart';",
+    "part '${0:fileName}.state.freezed.dart';",
+    "",
+    "@freezed",
+    "class ${1:ScreenName}State with _$${1:ScreenName}State {",
+    "  const factory ${1:ScreenName}State({",
+    "     ${2:StateName},",
+    "  }) = _${1:ScreenName}State;",
+    "}",
+    ""
+  ],
+  "description": "Creates freezed class"
+}
 }
