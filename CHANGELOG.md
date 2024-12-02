@@ -76,6 +76,7 @@ All notable changes to the "flutter-snippets" extension will be documented in th
 - Added `fapptext` class snippet
 - Added `fappimage` class snippet
 - Added `fappcolor` class snippet
+
 ## [1.0.5]
 
 - Seperated different snippet types in different folders
@@ -90,3 +91,6 @@ All notable changes to the "flutter-snippets" extension will be documented in th
 - Added `print` snippet
 - Fixed some misc bugs
 
+## [1.0.6]
+
+- Added `freezed` snippet
