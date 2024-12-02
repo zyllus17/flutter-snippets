@@ -88,6 +88,8 @@ Supercharge your Flutter workflow with handy Snippets for VS Code
 | `fapptext` | Flutter AppText class snippet | Creates AppText class snippet for Strings used in app|
 | `fappimage` | Flutter AppImage class snippet | Creates AppImage class snippet for Image assets used in app|
 | `fappcolor` | Flutter AppColors class snippet | Creates AppColors class snippet for Color used in app|
+| `freezed` | Flutter Freezed class snippet | Creates Freezed class snippet|
+
 
 ## Riverpod Snippets
 |Snippet|Expanded|Description|
